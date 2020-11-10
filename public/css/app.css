@@ -1,0 +1,32 @@
+body,
+html {
+  background: #fff;
+  font-family: "Open Sans";
+}
+
+.gallery_img_bg {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  background-size: cover;
+}
+
+.gallery_img_bg:hover {
+  background: rgba(0, 114, 206, 0.9);
+}
+
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url("https://res.cloudinary.com/mhmd/image/upload/v1555917661/art-colorful-contemporary-2047905_dxtao7.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
